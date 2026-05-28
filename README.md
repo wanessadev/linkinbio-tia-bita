@@ -42,8 +42,6 @@ O design foi estruturado para gerar conexão emocional imediata e acessibilidade
 
 ## 📂 Como Visualizar o Projeto
 
-![Preview do Projeto](./preview-projeto.png)
-
-
 https://linkinbio-tia-bita.vercel.app/
+
 
