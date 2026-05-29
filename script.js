@@ -130,7 +130,7 @@ const modalContent = {
       "Pix",
       "Cartão de débito",
       "Cartão de crédito",
-      "Pagamento combinado no momento do pedido"
+      "É necessário a entrada de 50% do valor da encomenda e o restante no dia da entrega."
     ]
   }
 };
