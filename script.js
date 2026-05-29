@@ -17,7 +17,7 @@ const modalContent = {
       },
       {
         name: "KIT 3",
-        price: "R$ 200,00",
+        price: "R$ 210,00",
         details: ["Bolo 15 cm (12 a 15 fatias)", "1 topo simples", "15 brigadeiros", "4 cupcakes"]
       },
       {
@@ -27,7 +27,7 @@ const modalContent = {
       },
       {
         name: "KIT 5",
-        price: "R$ 310,00",
+        price: "R$ 330,00",
         details: ["Bolo 20 cm (19 a 23 fatias)", "1 topo simples", "25 brigadeiros", "6 cupcakes"]
       }
     ]
