@@ -117,13 +117,6 @@ const modalContent = {
       }
     ]
   },
-  website: {
-    title: "Nosso Website",
-    items: [
-      "O site oficial da Doces da Tia Bita está sendo preparado com carinho.",
-      "Enquanto isso, você pode ver novidades no Instagram ou fazer seu pedido pelo WhatsApp."
-    ]
-  },
   payments: {
     title: "Formas de Pagamento",
     items: [
@@ -194,8 +187,20 @@ function closeModal() {
   modal.setAttribute("aria-hidden", "true");
 }
 
+// Configura os botões que de fato abrem os modais
 document.querySelectorAll("[data-modal]").forEach((button) => {
-  button.addEventListener("click", () => openModal(button.dataset.modal));
+  button.addEventListener("click", () => {
+    const target = button.dataset.modal;
+    
+    // Se for o botão do website, abre o link em uma nova aba e não faz mais nada
+    if (target === "website") {
+      window.open("https://page-tiabita.vercel.app/", "_blank");
+      return; 
+    }
+    
+    // Caso contrário, abre o modal normalmente
+    openModal(target);
+  });
 });
 
 modalClose.addEventListener("click", closeModal);
